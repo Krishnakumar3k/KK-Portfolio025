@@ -69,19 +69,14 @@ const Contact = () => {
     {
       icon: <FiMail size={24} />,
       title: 'Email',
-      value: 'johndoe@example.com',
-      link: 'mailto:johndoe@example.com'
+      value: 'krishnakumar3kgt@gmail.com',
+      link: 'mailto:krishnakumar3kgt@gmail.com'
     },
-    {
-      icon: <FiPhone size={24} />,
-      title: 'Phone',
-      value: '+1 (123) 456-7890',
-      link: 'tel:+11234567890'
-    },
+
     {
       icon: <FiMapPin size={24} />,
       title: 'Location',
-      value: 'San Francisco, CA'
+      value: 'Noida, UP'
     }
   ]
   
@@ -236,7 +231,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-dark-600 bg-white dark:bg-dark-700 text-dark-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-500 transition-colors"
-                      placeholder="John Doe"
+                      placeholder="Enter Your Name"
                     />
                   </div>
                   
@@ -252,7 +247,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-dark-600 bg-white dark:bg-dark-700 text-dark-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-500 transition-colors"
-                      placeholder="john@example.com"
+                      placeholder="user@gmail.com"
                     />
                   </div>
                 </div>
