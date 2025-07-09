@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+// src/App.js
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -16,13 +18,13 @@ import { useEffect } from 'react'
 
 function App() {
   const { theme } = useTheme()
-  
+
   useEffect(() => {
     document.documentElement.className = theme
   }, [theme])
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App min-h-screen">
         <ScrollToTopOnRouteChange />
         <Navbar />
@@ -41,7 +43,7 @@ function App() {
         <Footer />
         <ScrollToTop />
       </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 
