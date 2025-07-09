@@ -28,7 +28,7 @@ const Experience = () => {
       period: "Jan 2025 - Present",
       duration: "",
       type: "Full-time",
-      description: "Working as software developer for PMAY U project with cutting-edge SaaS platforms base softwre to developed for the (Govt Of India).",
+      description: "Working as software developer for PMAY U project with cutting-edge SaaS platforms based software to developed for the (Govt. Of India).",
       achievements: [
         "Workig with the team size of 10+ developer with building  a SaaS platform",
         "Build the module for RERA and PMAY U beneficiries.",
