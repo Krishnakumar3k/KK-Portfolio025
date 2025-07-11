@@ -332,7 +332,7 @@ const About = () => {
             
             <div className="space-y-4 text-dark-600 dark:text-gray-300 mb-6">
               <p>
-               I am a dedicated and passionate Full-Stack Developer with IT industries experience in software development. Originating from Bihar, India, I specialize in building dynamic and scalable web applications using the <span style={{ color: "#0E5BBE" }}>MERN Stack (MongoDB, Express.js, React.js, and Node.js).</span> I hold a Bachelor’s degree in Engineering (B.Tech.) with a specialization in Information Technology from RRIMT Lucknow, affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU).
+               I am a dedicated and passionate Full-Stack Developer with IT industries experience in software development. Originating from Bihar, India, I specialize in building dynamic and scalable web applications using the <span style={{ color: "#0E5BBE" }}>MERN Stack (MongoDB, Express.js, React.js, and Node.js ) and MySQL</span> I hold a Bachelor’s degree in Engineering (B.Tech.) with a specialization in Information Technology from RRIMT Lucknow, affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU).
                 My academic background laid a strong foundation in programming and problem-solving, which I have since honed through real-world projects.
                
               </p>

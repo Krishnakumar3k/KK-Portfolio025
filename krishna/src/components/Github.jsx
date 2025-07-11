@@ -8,10 +8,9 @@ const Github = () => {
   
   // For a real implementation, you would fetch this data from GitHub API
   const [githubStats, setGithubStats] = useState({
-    repos: 42,
-    stars: 156,
-    followers: 87,
-    contributions: 824
+    repos: 45,
+    stars: 32,
+    contributions: 82
   })
   
   const [repositories, setRepositories] = useState([
@@ -19,42 +18,18 @@ const Github = () => {
       id: 1,
       name: "e-commerce-platform",
       description: "A feature-rich e-commerce solution built with React, Node.js, and MongoDB",
-      language: "JavaScript",
-      stars: 58,
-      forks: 24,
-      lastUpdated: "2 weeks ago",
-      url: "https://github.com/johndoe/e-commerce-platform"
+      language: "MERN Stack",
+      
+      url: "https://github.com/Krishnakumar3k?page=1&tab=repositories"
     },
     {
       id: 2,
-      name: "task-management-app",
-      description: "A responsive task management application with drag-and-drop functionality",
-      language: "TypeScript",
-      stars: 42,
-      forks: 16,
-      lastUpdated: "1 month ago",
-      url: "https://github.com/johndoe/task-management-app"
+      name: "Blog WebApp",
+      description: "A responsive blog web application with all functionlity of user and blog creater",
+      language: "MERN Stack",    
+      url: "https://github.com/Krishnakumar3k/Blog-App-Full-Stack-MERN"
     },
-    {
-      id: 3,
-      name: "social-media-dashboard",
-      description: "A comprehensive dashboard for social media analytics",
-      language: "JavaScript",
-      stars: 36,
-      forks: 12,
-      lastUpdated: "2 months ago",
-      url: "https://github.com/johndoe/social-media-dashboard"
-    },
-    {
-      id: 4,
-      name: "react-component-library",
-      description: "A collection of reusable React components with modern design",
-      language: "TypeScript",
-      stars: 124,
-      forks: 38,
-      lastUpdated: "3 weeks ago",
-      url: "https://github.com/johndoe/react-component-library"
-    }
+   
   ])
   
   // This would be a real GitHub contributions chart in a production environment
@@ -163,7 +138,7 @@ const Github = () => {
   ];
 
   return (
-    <section id="github" className="section-padding bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900 relative overflow-hidden" ref={ref}>
+    <section id="github" className=" font-sans section-padding bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900 relative overflow-hidden" ref={ref}>
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Floating Code Symbols */}
@@ -310,7 +285,9 @@ const Github = () => {
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-16"
+         className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center mx-auto max-w-6xl"
+
+
         >
           {[
             { 
@@ -327,13 +304,7 @@ const Github = () => {
               color: "secondary",
               gradient: "from-secondary-500 to-purple-600"
             },
-            { 
-              icon: <FiUsers size={24} />, 
-              value: githubStats.followers, 
-              label: "Followers",
-              color: "accent",
-              gradient: "from-accent-500 to-pink-600"
-            },
+         
             { 
               icon: <FiTrendingUp size={24} />, 
               value: githubStats.contributions, 
@@ -650,7 +621,7 @@ const Github = () => {
             className="md:col-span-2 text-center mt-6"
           >
             <motion.a 
-              href="https://github.com/johndoe" 
+              href="https://github.com/Krishnakumar3k" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn btn-outline inline-flex items-center gap-2 group"

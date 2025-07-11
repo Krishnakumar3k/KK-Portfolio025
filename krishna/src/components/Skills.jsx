@@ -172,7 +172,7 @@ const Skills = () => {
   }
 
   return (
-    <section id="skills" ref={ref} className="section-padding bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900 relative overflow-hidden">
+    <section id="skills" ref={ref} className=" font-sans section-padding bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 dark:from-dark-900 dark:via-dark-800 dark:to-dark-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Floating Code Symbols */}
