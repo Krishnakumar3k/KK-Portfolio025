@@ -332,7 +332,7 @@ const Hero = () => {
                 <FiGithub size={18} className="sm:w-5 sm:h-5 md:w-6 md:h-6" />
               </motion.a>
               <motion.a 
-                href="https://www.linkedin.com/in/krishna-kumar-789505202" 
+                href="https://www.linkedin.com/in/krishna-kumar-789505202/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 whileHover={{ y: -3, color: '#0077B5' }}

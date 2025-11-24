@@ -29,7 +29,7 @@ const RemoteTeam = () => {
       name: "Krishna Kumar",
       role: "Software Engineer",
       experience: "2+ years",
-      image: "https://media.licdn.com/dms/image/v2/D5635AQEmR08nCkn31A/profile-framedphoto-shrink_400_400/B56ZbyHzCGHUAc-/0/1747818853258?e=1752609600&v=beta&t=6hzk94jNocUAVABWQS0B1T-um32BkN_XHpifRBQXA28",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQGE1VO-duRK2A/profile-displayphoto-scale_400_400/B56Ziyb5dJHkAg-/0/1755340318594?e=1758758400&v=beta&t=ezJdcqiUO_ss0TmGXBKC-GKuE45QjaJSwVcbIgyEY28",
       skills: ["JavaScript", "Node.js", "React js", "MongoDB", "MySql"],
       social: {
         linkedin: "https://www.linkedin.com/in/krishna-kumar-789505202/",
@@ -55,7 +55,7 @@ const RemoteTeam = () => {
       name: "Ansar Mansoorie",
       role: "Full Stack Developer",
       experience: "2+ years",
-      image: "https://media.licdn.com/dms/image/v2/D4D35AQGj5Vz2EUNVrA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1664766346275?e=1752609600&v=beta&t=SEsJP-qG1E_2tYqwsG9v7yjLWblr5NTCjqAIscIZdKo",
+      image: "https://media.licdn.com/dms/image/v2/D4D35AQGj5Vz2EUNVrA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1664766346275?e=1756296000&v=beta&t=BL2vCPKd-9TTcmT7LO50qngU9JVkN34ETsnpK3f7BuU",
       skills: ["MERN Stack", "JavaScript", "React js", "Node js"],
       social: {
         linkedin: "https://www.linkedin.com/in/mo-ansar-mansoorie-1574321b9/",

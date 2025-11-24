@@ -342,7 +342,7 @@ const About = () => {
             </div>
             
             <motion.a
-              href="https://drive.google.com/file/d/10njiu3lZ8poLxYnajHc-iCSSRncHqbQh/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LO4_M5Fw3MzLzFMnR7u7ziIashh7RwT9/view?usp=sharing"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn btn-primary inline-flex items-center gap-2 mb-8"

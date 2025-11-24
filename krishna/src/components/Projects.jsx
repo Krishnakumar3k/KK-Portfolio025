@@ -28,7 +28,7 @@ const Projects = () => {
       description: "A full-featured PMAY U (Prdhan Mantri Awas Yojna Urban) platform for manage beneficary and applicant data, user authentication, Ai functionality, and data processing.",
       image: img,
       tags: ["react js", "node js", "mysql", "fullstack"],
-      liveLink: "https://dashboard.pmay-urban.gov.in/login?redirect=/",
+      liveLink: "https://pmay-urban.gov.in/",
       features: ["User authentication", "Beneficary catalog", "Ai Integration", "All State data API management",]
     },
     {

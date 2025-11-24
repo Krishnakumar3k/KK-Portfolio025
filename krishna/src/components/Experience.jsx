@@ -22,17 +22,17 @@ const Experience = () => {
  const experiences = [
     {
       id: 1,
-      title: "Software Developer Engineer",
+      title: "Software Engineer",
       company: "SPRAC Services Private Limited.",
       location: "Lucknow, Noida,  Uttar Pardesh INDIA",
       period: "Jan 2025 - Present",
       duration: "",
       type: "Full-time",
-      description: "Working as software developer for PMAY U project with cutting-edge SaaS platforms based software to developed for the (Govt. Of India).",
+      description: "Working as software engineer for PMAY U project with cutting-edge SaaS platforms based software to developed for the (Govt. Of India).",
       achievements: [
-        "Workig with the team size of 10+ developer with building  a SaaS platform",
-        "Build the module for RERA and PMAY U beneficiries.",
-        "Optimized database queries improving performance by 30%",
+        "Working with the team size of 10+ developers to built a SaaS platform",
+        "Built the APIs and Dynamic UIs for PMAY-U and RERA government projects.",
+        "Optimized database queries improving performance by 40%",
         "Conducted code reviews with developers"
       ],
       technologies: ["React", "Node.js", "MySQL", "MERN Stack"],
@@ -40,7 +40,7 @@ const Experience = () => {
       gradient: "from-blue-500 to-purple-600",
       bgColor: "bg-blue-50 dark:bg-blue-900/20",
       borderColor: "border-blue-200 dark:border-blue-800",
-      companyLogo: "https://media.licdn.com/dms/image/v2/D560BAQEERbQ4pKikzA/company-logo_200_200/company-logo_200_200/0/1736329183357?e=1757548800&v=beta&t=RUasNVPmEw_plub6KNpQv5TE83OdbrFZPh6TMMO1yjM",
+      companyLogo: "https://media.licdn.com/dms/image/v2/D560BAQEERbQ4pKikzA/company-logo_200_200/company-logo_200_200/0/1736329183357?e=2147483647&v=beta&t=YKlcct51TM133it2z0eMdaRWnGUwcF0vo9n2cKEkaDo",
       stats: {
         projects: 2,
         teamSize: 10,
@@ -67,7 +67,7 @@ const Experience = () => {
       gradient: "from-purple-500 to-pink-600",
       bgColor: "bg-purple-50 dark:bg-purple-900/20",
       borderColor: "border-purple-200 dark:border-purple-800",
-      companyLogo: "https://media.licdn.com/dms/image/v2/C560BAQF3f4UWnAOK2w/company-logo_200_200/company-logo_200_200/0/1630660232736/panorama_software_solutions_logo?e=1757548800&v=beta&t=oOJOkRpUi_xuoJZXeKWYTSH03jqbLfiOtgzfNB9VGGc",
+      companyLogo: "https://media.licdn.com/dms/image/v2/C560BAQF3f4UWnAOK2w/company-logo_200_200/company-logo_200_200/0/1630660232736/panorama_software_solutions_logo?e=2147483647&v=beta&t=zyjB5Gbx3r50fMl4DdAHFJT0_i_nzlZtYk2ljV1bR7I",
       stats: {
         projects: 2,
         teamSize: 5,
@@ -208,7 +208,7 @@ const Experience = () => {
                       ease: "easeInOut"
                     }}
                   >
-                    2+
+                    2.6+
                   </motion.div>
                   <div className="text-xs md:text-sm font-medium opacity-90">
                     Years
